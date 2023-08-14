@@ -1,0 +1,291 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url(assets/Poppins-Black.ttf);
+}
+
+@font-face {
+  font-family: Inter;
+  src: url(assets/Inter-VariableFont_slnt\wght.ttf);
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  margin-top: 53px;
+  top: 0px;
+  background-color: #fff;
+  z-index: 1;
+}
+
+nav ul {
+  display: flex;
+}
+
+header .name-span {
+  color: #6b77e5;
+}
+
+header h1 {
+  color: #37393f;
+  font-family: Poppins;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 3.83px;
+  margin-right: 195px;
+}
+
+nav ul a {
+  color: #37393f;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-right: 40px;
+}
+
+header .consulting-button {
+  background-color: #6b77e5;
+  width: 184px;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+  font-family: Cabin;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+main .main-headers h3 {
+  color: #37393f;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+main .main-headers h1 {
+  color: #37393f;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 121%;
+  margin-bottom: 41px;
+}
+
+main .main-headers {
+  margin-top: 136px;
+}
+
+main .containers {
+  display: flex;
+  justify-content: center;
+}
+
+main .box {
+  background-color: #f4f4f4;
+  width: 386px;
+  height: 383px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+main .middle-box {
+  margin: 0 31px;
+}
+
+main .box h2 {
+  color: #37393f;
+  font-family: Poppins;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 127%;
+  margin-top: 58px;
+}
+
+main .box p {
+  margin-top: 16px;
+  color: #7d7d7d;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 146.187%;
+}
+
+main .box h3 {
+  margin-top: 36px;
+  margin-bottom: 10px;
+  color: #6b77e5;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+section .parent {
+  position: relative;
+  width: 100%;
+  height: 557px;
+  background: url(assets/background.jpg);
+  background-size: cover;
+  overflow: hidden;
+}
+
+section .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(64, 221, 182, 0.75);
+}
+
+section .on-top h3 {
+  color: #37393f;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 16px;
+}
+
+section .on-top h1 {
+  color: #37393f;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 121%;
+  margin-bottom: 21px;
+}
+
+section .on-top p {
+  color: #37393f;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 146.187%;
+  margin-bottom: 47px;
+}
+
+section .on-top {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+section .on-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.team h4 {
+  color: #37393f;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+  margin-top: 130px;
+  margin-bottom: 16px;
+}
+
+.team h1 {
+  color: #37393f;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 121%;
+  margin-bottom: 41px;
+}
+
+.team-box {
+  display: flex;
+  justify-content: center;
+}
+
+.middle-man {
+  margin: 0 31px;
+}
+
+.names {
+  position: absolute;
+  bottom: 24px;
+  left: 24px;
+  height: 114px;
+  width: 341px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-pic {
+  position: relative;
+  margin-bottom: 131px;
+}
+
+.names h2 {
+  color: #37393f;
+  font-family: Poppins;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.names h3 {
+  color: #7d7d7d;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 135.187%;
+}
